@@ -1,0 +1,39 @@
+
+page{width: 100%;height: 100%;}
+.pickGoods-container{width: 100%;height: 100%;background: #F6F5F5;position: relative;}
+.main{width: 100%;overflow: hidden;padding: 0 49rpx;background: #fff;margin-top: 20rpx;}
+.title {margin:40rpx 0 20rpx 0;font-size: 30rpx;color: #3E414F;width: 100%;}
+.select{width: 100%;overflow: hidden;}
+.select text{display: inline-block;min-width:200rpx;height: 66rpx;text-align: center;line-height: 66rpx;
+	font-size:26rpx;-webkit-border-radius: 8rpx;border-radius: 8rpx;margin-bottom: 20rpx;margin-right: 10rpx;float: left;}
+.active{background: #FFF3EA;border: 2rpx solid #FF8833;-webkit-border-radius: 8rpx;border-radius: 8rpx;color: #FF8833;}
+.actove{background: #F5F7FA;-webkit-border-radius: 8rpx;border-radius: 8rpx;}
+.note{width: 100%;overflow: hidden;}
+.note textarea{width: 100%;background: #F6F5F5;-webkit-border-radius: 8rpx;border-radius: 8rpx;height: 158rpx;margin-bottom: 30rpx;padding: 24rpx 27rpx;}
+.abnormal{width: 100%;height: 120rpx;background: #fff;
+	position: fixed;left: 0;bottom: 0;
+}
+.abnormal text{display: block;float: left;}
+.abnormal text:nth-of-type(1){font-size: 30rpx;color: #3E414F;width: 260rpx;
+height: 90rpx;text-align: center;line-height: 90rpx;
+border: 2rpx solid #C5C9D1;
+-webkit-border-radius: 8rpx;
+        border-radius: 8rpx;margin: 15rpx 30rpx 15rpx 24rpx;}
+.abnormal text:nth-of-type(2){font-size: 30rpx;color: #fff;width: 412rpx;
+height: 90rpx;text-align: center;line-height: 90rpx;
+background: -webkit-gradient(linear, right top, left top, from(#FF8833), to(#FAA951));
+background: -webkit-linear-gradient(right, #FF8833 0%, #FAA951 100%);
+background: linear-gradient(270deg, #FF8833 0%, #FAA951 100%);
+-webkit-border-radius: 8rpx;
+        border-radius: 8rpx;margin: 15rpx 0rpx 15rpx 0rpx;}
+.zhanwei{width: 100%;height: 150rpx;}
+.chooseImg{width: 180rpx;height:180rpx;float: left;
+	border: 2rpx dashed #C5C9D1;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;margin-left: 20rpx;margin-top: 10rpx;}
+.photo{width: 100%;overflow: hidden;}
+.chooseImg image{width: 54rpx;height: 51rpx;display: block;margin: 42rpx auto 19rpx;}
+.chooseImg text{display: block;width: 100%;font-size: 26rpx;color:#3E414F;text-align: center;}
+.backPhoto{width: 180rpx;height: 180rpx;float: left;margin-left:20rpx;margin-top: 10rpx;-webkit-border-radius: 8rpx;border-radius: 8rpx;}
+.backPhoto image{width:180rpx;height:180rpx;-webkit-border-radius: 8rpx;border-radius: 8rpx;}
+

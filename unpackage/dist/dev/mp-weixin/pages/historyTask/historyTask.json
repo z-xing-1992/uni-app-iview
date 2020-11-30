@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "历史任务",
+  "navigationBarBackgroundColor": "#3E414F",
+  "backgroundColor": "#3E414F",
+  "usingComponents": {
+    "history-mission": "/components/HistoryMission"
+  }
+}

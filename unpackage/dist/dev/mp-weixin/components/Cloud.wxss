@@ -1,0 +1,112 @@
+
+.cloud-item {
+	width: 702rpx;
+	height: 374rpx;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 0rpx 16px 0px rgba(62, 65, 79, 0.1);
+	        box-shadow: 0px 0rpx 16px 0px rgba(62, 65, 79, 0.1);
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	margin: 0rpx auto 20rpx;
+	position: relative;
+}
+.item-left {
+	width: 152rpx;
+	background: rgba(190, 191, 194, 0.8);
+	font-size: 100rpx;
+	font-family: Alibaba PuHuiTi;
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 374rpx;
+	-webkit-border-radius: 8rpx 0px 0px 8rpx;
+	        border-radius: 8rpx 0px 0px 8rpx;
+}
+.item-right {
+	float: left;
+	padding: 0 26rpx 0 38rpx;
+	width: 550rpx;
+}
+._label {
+	font-size: 26rpx;
+	color: #777777;
+}
+._label-detail {
+	font-size: 26rpx;
+	color: #3E414F;
+	font-weight: bold;
+}
+.cloud-code,
+.cloud-name,
+.phone-location {
+	margin-top: 26rpx;
+}
+.phone-location {
+	width: 100%;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.checkphone {
+	display: block;
+	width: 194rpx;
+	height: 60rpx;
+	background: #FF8833;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	line-height: 60rpx;
+}
+.checkphone image {
+	width: 29rpx;
+	height: 29rpx;
+	display: block;
+	float: left;
+	margin: 16rpx 10rpx 16rpx 48rpx;
+}
+.location-logo {
+	display: block;
+	width: 194rpx;
+	height: 60rpx;
+	background: #4868FB;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+	line-height: 60rpx;
+}
+.location-logo image {
+	width: 27rpx;
+	height: 27rpx;
+	display: block;
+	float: left;
+	margin: 16rpx 10rpx 16rpx 48rpx;
+}
+.checkphone text,
+.location-logo text {
+	font-size: 30rpx;
+	color: #fff;
+}
+.zhezhao{
+	width: 100%;
+	height: 374rpx;
+	background: rgba(120,121,131,0.9);	
+	-webkit-border-radius: 8rpx;	
+	        border-radius: 8rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zhezhao text{display: block;width: 100%;overflow: hidden;text-align: center;}
+.zhezhao text:nth-of-type(1){font-size: 34rpx;color: #fff;margin-top: 83rpx;}
+.zhezhao text:nth-of-type(2){font-size: 32rpx;color: #fff;text-decoration: underline;margin: 50rpx 0 81rpx 0;}
+.success{width: 206rpx;height: 74rpx;position: absolute;top: 0;right: 0;-webkit-border-radius: 0rpx 8rpx 0rpx 8rpx;border-radius: 0rpx 8rpx 0rpx 8rpx;line-height: 74rpx;font-size: 38rpx;color: #06BD7D;
+background: #E5F8F1;}
+.abnormal{width: 206rpx;height: 74rpx;position: absolute;top: 0;right: 0;-webkit-border-radius: 0rpx 8rpx 0rpx 8rpx;border-radius: 0rpx 8rpx 0rpx 8rpx;line-height: 74rpx;font-size: 38rpx;color: #FF5959;
+background: #F8E5E5;}
+.success image,.abnormal image{display: block;width: 40rpx;height: 40rpx;margin: 17rpx 10rpx 17rpx 22rpx;float: left;}
+

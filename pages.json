@@ -1,0 +1,128 @@
+{	
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index", //首页
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/task/task", //当前任务
+            "style" :{
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "当前任务",
+				"navigationBarBackgroundColor": "#3E414F",
+				"backgroundColor": "#3E414F"
+			}
+            
+        }
+        ,{
+            "path" : "pages/historyTask/historyTask",//历史任务
+            "style" :                                                                                    
+            {
+               "navigationBarTextStyle": "white",
+               "navigationBarTitleText": "历史任务",
+               "navigationBarBackgroundColor": "#3E414F",
+               "backgroundColor": "#3E414F"
+            }
+            
+        }
+        ,{
+            "path" : "pages/todayTask/todayTask",//今日任务
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+				"navigationBarTitleText": "今日任务",
+				"navigationBarBackgroundColor": "#3E414F",
+				"backgroundColor": "#3E414F",
+				"enablePullDownRefresh": true				
+            }
+            
+        }
+        ,{
+            "path" : "pages/taskDetail/taskDetail",//任务详情
+            "style" :                                                                                    
+            {
+              "navigationBarTextStyle": "white",
+              "navigationBarTitleText": "任务详情",
+              "navigationBarBackgroundColor": "#3E414F",
+              "backgroundColor": "#3E414F"
+              
+            }
+            
+        }
+        ,{
+            "path" : "pages/pickGoods/pickGoods", //提货异常
+            "style" :                                                                                    
+            {
+               "navigationBarTextStyle": "black",
+               "navigationBarTitleText": "提货异常",
+               "navigationBarBackgroundColor": "#F8F8F8",
+               "backgroundColor": "#F8F8F8"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cloudPoint/cloudPoint",//团点列表
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+                "navigationBarTitleText": "团点列表",
+                "navigationBarBackgroundColor": "#3E414F",
+                "backgroundColor": "#3E414F"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cloudDetail/cloudDetail",//团点详情
+            "style" :                                                                                    
+            {
+                "navigationBarTextStyle": "white",
+                "navigationBarTitleText": "团点详情",
+                "navigationBarBackgroundColor": "#3E414F",
+                "backgroundColor": "#3E414F"
+            }
+            
+        },
+		{
+		    "path" : "pages/pickGoods/SignGoods", //签收异常
+		    "style" :                                                                                    
+		    {
+		       "navigationBarTextStyle": "black",
+		       "navigationBarTitleText": "签收异常",
+		       "navigationBarBackgroundColor": "#F8F8F8",
+		       "backgroundColor": "#F8F8F8"
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF8833",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/shouyeUnsec.png",
+				"selectedIconPath": "static/icon/shouyeSec.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"iconPath": "static/icon/todoUsec.png",
+				"selectedIconPath": "static/icon/todoSec.png",
+				"text": "当前任务"
+			}
+		]
+	}
+}

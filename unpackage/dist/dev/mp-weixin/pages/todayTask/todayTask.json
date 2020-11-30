@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "今日任务",
+  "navigationBarBackgroundColor": "#3E414F",
+  "backgroundColor": "#3E414F",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "todays-mission": "/components/TodaysMission"
+  }
+}

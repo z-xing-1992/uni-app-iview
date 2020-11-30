@@ -1,0 +1,15 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "团点详情",
+  "navigationBarBackgroundColor": "#3E414F",
+  "backgroundColor": "#3E414F",
+  "usingComponents": {
+    "t-table": "/components/t-table/t-table",
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "t-th": "/components/t-table/t-th",
+    "t-tr": "/components/t-table/t-tr",
+    "t-td": "/components/t-table/t-td"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/task/task",
+    "pages/historyTask/historyTask",
+    "pages/todayTask/todayTask",
+    "pages/taskDetail/taskDetail",
+    "pages/pickGoods/pickGoods",
+    "pages/cloudPoint/cloudPoint",
+    "pages/cloudDetail/cloudDetail",
+    "pages/pickGoods/SignGoods"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF8833",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/shouyeUnsec.png",
+        "selectedIconPath": "static/icon/shouyeSec.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "iconPath": "static/icon/todoUsec.png",
+        "selectedIconPath": "static/icon/todoSec.png",
+        "text": "当前任务"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

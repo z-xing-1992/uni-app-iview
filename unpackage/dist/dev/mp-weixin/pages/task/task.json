@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "当前任务",
+  "navigationBarBackgroundColor": "#3E414F",
+  "backgroundColor": "#3E414F",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "cloud": "/components/Cloud"
+  }
+}
